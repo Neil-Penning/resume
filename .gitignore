@@ -1,0 +1,19 @@
+*.log
+*.toc
+*.gz
+*.aux
+*.out
+*.synctex.gz
+.DS_Store
+*.DS_Store
+Twin Prime Jupyter/grids30.npy
+*.sagetex.sage
+*.sagetex.sage.py
+*.ipynb_checkpoints
+Literature/*
+sagetex.sty
+*.scmd
+*.sout
+*sage-plots-for*
+*_doctest.sage*
+*.swp
