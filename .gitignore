@@ -17,3 +17,5 @@ sagetex.sty
 *sage-plots-for*
 *_doctest.sage*
 *.swp
+*.fls
+*fdb*
