@@ -1,32 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Graduate Curriculum Vitae
-% LaTeX Template
-% Version 1.1 (9/12/12)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
-%
-% Important note:
-% This template requires the res.cls file to be in the same directory as the
-% .tex file. The res.cls file provides the resume style used for structuring the
-% document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[margin, 10pt]{./res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
-
-\usepackage{helvet} % Default font is the helvetica postscript font
-%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
-
-\setlength{\textwidth}{5.1in} % Text width of the document
-
+\input{preamble}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -40,47 +12,54 @@
 %\moveleft.5\hoffset\centerline{430 Chantenay Place} % Your address
 \moveleft.5\hoffset\centerline{Atlanta, GA}
 \moveleft.5\hoffset\centerline{(404) - 403 - 2105}
-\moveleft.5\hoffset\centerline{neil@penning.email}
+\moveleft.5\hoffset\centerline{neil.penning@gatech.edu}
 
 %----------------------------------------------------------------------------------------
 
 \begin{resume}
-
 \section{EDUCATION}  
-Math Major at Georgia Gwinnett College \quad - \quad 3.84 GPA\\
-Math Major at Georgia Institute of Technology \quad - \quad 0.00 GPA
+\begin{tabular}{@{}lrr}
+Math Major at Georgia Institute of Technology & n/a & 2021-present\\
+Math Major at Georgia Gwinnett College & 3.84 GPA & 2019-2020
+\end{tabular}
 %
 \section{EXPERIENCE}  
-Hyrel3D Internship\\
-Semi-weekly Tutoring
-
+\begin{tabular}{@{}lr} % Note: @{} removes left margin
+    Hyrel 3D & 2018-2019\\
+    Paid Semi-Weekly Calculus Tutoring & 2020-2021
+\end{tabular}
+\\
+%
 %
 \section{SKILLS}  
-Python\\
-Scipy / Pandas\\
-SageMath\\
-Wolfram Mathematica\\
 \LaTeX\\
-Git Version Control\\
+SageMath\\
+Python\\
 Vim\\
-Bash / Unix\\
+Bash\\ 
+Git Version Control\\
+Wolfram Mathematica\\
+%Scipy / Pandas\\
+\\
 Hyrel 3D Multi-Material Printers\\
 Autodesk Inventor\\
 EasyEDA PCB Layout
 %
-\section{PROJECTS} 
-Exotic Materials Tester at Hyrel3D\\
-PCB Layout for Personal Project\\
+%\section{PROJECTS} 
+%Exotic Materials Tester at Hyrel3D\\
+%PCB Layout for Personal Project
 %Self Balancing Bike
 % 
-\section{RESEARCH} 
-
-Twin Prime Conjecture with Dr. Aris Winger
+%\section{RESEARCH} 
+%
+%Twin Prime Conjecture with Dr. Aris Winger
 %
 \section{LEADERSHIP} 
-Founding President of FIRST Robotics Team 6829 (2018-2019)\\
-Hull Middle School Robotics Volunteer Coordinator (2016-2019)\\
-Mason Elementary School Robotics Volunteer Coordinator (2017-2019)
+\begin{tabular}{@{}lr}
+Founding President of FIRST Robotics Team 6829 & 2018-2019\\
+Hull Middle School Robotics Volunteer Coordinator & 2016-2019\\
+Mason Elementary School Robotics Volunteer Coordinator & 2017-2019
+\end{tabular}
 %
 \end{resume}
 \end{document}

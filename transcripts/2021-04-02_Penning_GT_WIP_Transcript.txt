@@ -1,0 +1,6 @@
+Class		Hours	Professor	Name
+MATH 4699	3	Josephine Yu	Intro to Tropical Geometry
+MATH 4803	3	Daniel Margalit	Intro to Geometric Group Theory
+MATH 4108	3	Greg Blekherman	Algebra II (Fields, Galois, and Modules)
+CS   1331	3	----		Intro to Java
+GT   2000	1	Beth Spencer	Transfer Student Seminar
